@@ -3,15 +3,6 @@ function Home(){
     <div>
     <div class="main_page">
         <div class="one">
-            <div class="upper">
-                <div class="logo">LOGO</div>
-                <ul class="login">
-                    <li>
-                        <li><button class="log_in">Log in</button></li>
-                        <li><button class="sign_in">Sign in</button></li>
-                    </li>
-                </ul>
-            </div>
             <div class="box">당신의 추억을 그려보세요.
             </div>
             <div class="search">
