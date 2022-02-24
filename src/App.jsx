@@ -1,4 +1,5 @@
-import { Route, BrowserRouter as Router } from 'react-router-dom'
+import { Route, Link, Routes, BrowserRoute as Router, BrowserRouter } from 'react-router-dom'
+import React, {Component} from 'react'
 import './App.css';
 import Header from './component/layout/header'
 import Footer from './component/layout/footer'
@@ -8,9 +9,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Router>
-        <Route exact path="/" component={Home} />
-      </Router>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+        </Routes>
+      </BrowserRouter>
       <Footer />
     </div>
   );
