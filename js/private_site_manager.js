@@ -1,6 +1,6 @@
 const tabMenus = document.querySelectorAll('.tab_menu li');
 const tabContents = document.querySelectorAll('.content section');
-
+const peopleRe = document.querySelector('.people_re');
 // 탭메뉴
 const activeSection = (e) => {
     e.stopPropagation();
@@ -18,6 +18,13 @@ const activeSection = (e) => {
             ? content.classList.add('active')
             : content.classList.remove('active')
     });
+    // 정보 > 수정하기 탭 메뉴 이동 시 숨김
+    if(menuIndex==0){
+        peopleRe.style.display="flex";
+    }
+    else{
+        peopleRe.style.display="none";  
+    }
 }
 
 [...tabMenus][0].classList.add('active');
@@ -39,7 +46,7 @@ function linkCopy(){
 
 // 갤러리 > 이미지 슬라이드
 const gallery = document.querySelectorAll(".wrapper_gallery .image");
-const previewBox = document.querySelector(".preview-box");
+const previewBox = document.querySelector(".preview_box");
 const closeIcon = document.querySelector("#icon");
 const previewImg = previewBox.querySelector("img");
 
@@ -52,6 +59,7 @@ window.onload = ()=>{
             function preview(){
                 let selectedImgUrl = gallery[newIndex].querySelector("img").src;            
                 previewImg.src = selectedImgUrl;
+                closeIcon.style.display="block";
             }
 
             // 이전 다음 버튼 기능
@@ -89,14 +97,15 @@ window.onload = ()=>{
             preview();
             previewBox.classList.add("show");
 
-
-
+            // 닫기 기능
             closeIcon.onclick = ()=>{
                 newIndex = clickImgIndex;
                 prevBtn.style.display="block";
                 nextBtn.style.display="block";
                 previewBox.classList.remove("show");
+                closeIcon.style.display="none";
             }
         }
     }
+    closeIcon.style.display="none";
 }
