@@ -1,47 +1,49 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="..\css\home_page.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
-    <script src="https://kit.fontawesome.com/1875960f1f.js" crossorigin="anonymous"></script>
-    <title>login_mainpage</title>
-</head>
-<body>
-    <div class="main_page">
-        <div class="title">
-            <div class="logo"><img src="..\image\logo.svg" 
-                width="45px" height="45px"></div>
-                <div class="login">
-                    <button class="log_in"></button>
-                </div>
-        </div>
-        <div class="one">       
+/* eslint-disable */
+import './App.css';
+import React, {useState} from 'react';
+import logo from './style/image/logo.svg';
+import search from './style/image/search.png';
+import family from './style/image/family.svg';
+import pet from './style/image/pet.svg';
+import arrow from './style/image/arrow.png';
+
+function App() {
+  return (
+    <div className="App">
+      <div className='titlebar'>
+        <div class="logo">
+          <img src={logo} width='45px' height='45px'/></div>
+        <div class="login">
+          <button class="login2"></button></div>
+      </div>
+      
+      <div class="one">       
             <div class="box">추모하고 싶은 사람을 찾아보세요
             </div>
             <div class="search">
                 <form>
-                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <input type="search"  placeholder="고인 혹은 반려동물의 이름 혹은 공유 링크를 입력하세요 ">
+                    <span>
+                      <img class="search" src={search}/>
+                      <input type="search"  placeholder="고인 혹은 반려동물의 이름 혹은 공유 링크를 입력하세요 "/>
+                    </span>
                 </form>
             </div>    
-        </div>
-        <div class="two">
+      </div>   
+
+      <div class="two">
             <div class="images_1">
-                <div class="image_family"><img src="..\image\family.svg" alt="가족그림" width="211px" height="314px"></div>
+                <div class="image_family"><img src={family} alt="가족그림" width="211px" height="314px"/></div>
                 <button class="create_site_1">고인을 위한 사이트 만들러가기
-                    <i class="fa-solid fa-angle-right"></i></button>
+                    <img src={arrow}/></button>
             </div>
             <div class="images_2">
-                <div class="image_pet"><img src="..\image\pet.svg" alt="반려동물그림" width="262px" height="239px"></div>
+                <div class="image_pet"><img src={pet} alt="반려동물그림" width="262px" height="239px"/></div>
                 <button class="create_site_2">반려동물을 위한 사이트 만들러가기
-                    <i class="fa-solid fa-angle-right"></i>
-                </button>
+                    <img src={arrow}/></button>
             </div>
-        </div>
-        <div class="three">
+      </div>
+
+      <div class="three">
             <div class="image_imformation">
             </div>
             <div class="triangle_1">
@@ -53,8 +55,9 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="four">
+      </div>
+
+      <div class="four">
             <div class="box4">
                 <div class="box4_1">슬픔나누기</div>
                 <div class="box4_2">다른 사람들의 사이트를<p></p>방문해보세요.</div>
@@ -88,8 +91,9 @@
                     </li>
                 </ul>
             </div>
-        </div>
-        <div class="five">
+      </div>
+
+      <div class="five">
             <div class="triangle_2">
                 <div class="box5">
                     <div class="box5_1">그리기</div>
@@ -100,8 +104,9 @@
                 </div>
             </div>
             <div class="image_imformation_2"></div>   
-            </div>
-        <div class="six">
+      </div>
+       
+      <div class="six">
             <div class="box6">
                 <div class="box6_1">함께 기억해야 할 삶</div>
                 <div class="box6_2">그리다의 갤러리관들을<p></p>소개합니다.</div>
@@ -142,10 +147,15 @@
                     </div>
                 </div>  
             </div> 
-        </div> 
-        <div class="last">
+      </div> 
+
+      <div class="bottombar">
             <div>당신의 삶을 그리다</div>
         </div> 
+
+
     </div>
-</body>
-</html>
+  );
+}
+
+export default App;
