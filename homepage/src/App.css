@@ -154,14 +154,16 @@ input::placeholder{
   display:flex;
 }
 .image_imformation{
-  width: 55%;
+  width: 60%;
   height: auto;
   background-image: url("./style/image/homepage_image1.png");
   background-size: 910px 516px;
   background-repeat: no-repeat;
+  z-index: 3;
 }
 .triangle_1 {
-  width: 45%;
+  z-index: 1;
+  width: 55%;
   height: 0px;
   position: absolute;
   top: 1207px;
@@ -280,8 +282,8 @@ input::placeholder{
   height:113px;
   margin: -64px 0px 0px 56px;
   border-radius: 50%;
-  border: 2px solid #fff;
-  box-shadow: 0 0 3px black;
+  border: 2px solid #FFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
 }
 .down{
   width: 100%;
