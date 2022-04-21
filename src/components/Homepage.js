@@ -8,7 +8,7 @@ import family from './style/image/family.svg';
 import pet from './style/image/pet.svg';
 import arrow from './style/image/arrow.png';
 
-function HomaPage() {
+function HomePage() {
   return (
     <div className="App">
       <div className='titlebar'>
@@ -17,11 +17,16 @@ function HomaPage() {
         <div class="login">
           <button class="login2"></button></div>
       </div>
-      <Link to={{
-        pathname: `/`
-      }}>
-        <button>로그인 페이지로 이동</button>
-      </Link>
+        <Link to={{
+            pathname: `/`
+        }}>
+            <button>로그인 페이지로 이동</button>
+        </Link>
+        <Link to={{
+        pathname: `/test`
+        }}>
+            <button>테스트 페이지로 이동</button>
+        </Link>
       <div class="one">
             <div class="box">추모하고 싶은 사람을 찾아보세요
             </div>
@@ -163,4 +168,4 @@ function HomaPage() {
   );
 }
 
-export default HomaPage;
+export default HomePage;
