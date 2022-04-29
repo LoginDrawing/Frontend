@@ -134,9 +134,8 @@
 .tab_menu{
     width: 100%;
     display: inline-flex;
-    border-bottom: 1px solid #AAD3EA;
+    border-bottom: 1px solid#AAD3EA;
 }
-
 .tab_menu li{
     width: 184px;
     height: 84px;
@@ -197,7 +196,12 @@
     width: 100%;
     overflow: hidden;
 }
-
+.wrapper_gallery .image:nth-child(3n){
+    margin: 0 0 26px 28px;
+}
+.wrapper_gallery .image:nth-child(3n+2){
+    margin: 0 0 26px 28px;
+}
 .wrapper_gallery .image img{
     width: 288px;
     height: 288px;
@@ -222,6 +226,7 @@
     opacity: 1;
     pointer-events: auto;
 }
+
 
 #icon{
     position: fixed;
