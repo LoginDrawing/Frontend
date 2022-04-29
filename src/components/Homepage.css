@@ -53,12 +53,12 @@
   height: 560px;
   display: inline-block;
 }
+
 .box {
   text-align: center;
   height: 51px;
-  width: auto;
+  width: 608px;
   font-size: 45px;
-  background-color: transparent;
   margin: 193px auto 51px auto;
   font-weight: 800;
   color: #385A79;
@@ -66,22 +66,22 @@
   font-style: normal;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
-.search{
-  background-color: transparent;
-}
-.search > form {
+
+.search>form {
   height: 72px;
   width: 791px;
   background-color: #fff;
   margin: 0px auto auto auto;
   border-radius: 5px;
 }
-.search > form > span > img {
+
+.search>form>span>img {
   height: 21px;
   width: 21px;
   margin: 25px auto auto 41px;
 }
-.search > form > span > input {
+
+.search>form>span>input {
   margin: auto auto auto 22px;
   height: 30px;
   width: 487px;
@@ -89,6 +89,7 @@
   border: none;
   background-color: rgba(0, 0, 0, 0);
 }
+
 input::placeholder {
   color: #C1C1C1;
   font-style: normal;
@@ -104,6 +105,7 @@ input::placeholder {
   height: 560px;
   display: inline-flex;
 }
+
 .images_1 {
   width: 50%;
   height: 406px;
@@ -111,11 +113,13 @@ input::placeholder {
   margin: 84px auto 70px auto;
   border-right: 2px solid #E6E9FA;
 }
+
 .image_family {
   height: 314px;
   width: 211px;
   margin: 0px 171px 0px auto;
 }
+
 .create_site_1 {
   height: 46px;
   width: 358px;
@@ -130,17 +134,20 @@ input::placeholder {
   border: none;
   cursor: pointer;
 }
+
 .images_2 {
   width: 50%;
   height: 332px;
   display: inline;
   margin: 158px auto 70px auto;
 }
+
 .image_pet {
   height: 239px;
   width: 262px;
   margin: 0px auto 0px 144px;
 }
+
 .create_site_2 {
   height: 46px;
   width: 358px;
@@ -154,17 +161,19 @@ input::placeholder {
   border: none;
   cursor: pointer;
 }
-.create_site_1 > img, .create_site_2 > img {
-  background-color: transparent;
-  margin: 3px 16px auto auto;
+
+.two img {
+  margin: auto 16px auto auto;
   float: right;
 }
+
 /**three**/
 .three {
   width: 100%;
   height: 530px;
   display: flex;
 }
+
 .image_imformation {
   width: 55%;
   height: auto;
@@ -172,28 +181,28 @@ input::placeholder {
   background-size: 910px 516px;
   background-repeat: no-repeat;
 }
+
 .triangle_1 {
   width: 45%;
   height: 0px;
   position: absolute;
-  background-color: transparent;
   top: 1207px;
   right: 0px;
   border-bottom: 530px solid #F4F7FB;
   border-left: 55px solid rgba(0, 0, 0, 0);
   border-right: 50% solid #F4F7FB;
 }
+
 .box3 {
   width: 286px;
   height: 213px;
   margin: 148px 223px 169px auto;
   display: block;
-  background-color: transparent;
 }
+
 .box3_1 {
-  width: 60px;
+  width: 55px;
   height: 24px;
-  background-color: transparent;
   font-size: 15px;
   margin-bottom: 22px;
   font-weight: 700;
@@ -202,9 +211,9 @@ input::placeholder {
   border-top: 2px solid #E6E9FA;
   line-height: 24px;
 }
+
 .box3_2 {
-  width: 250px;
-  background-color: transparent;
+  width: 218px;
   height: 80px;
   font-size: 25px;
   margin-left: 20px;
@@ -213,9 +222,9 @@ input::placeholder {
   text-align: right;
   line-height: 40px;
 }
+
 .box3_3 {
-  width: 300px;
-  background-color: transparent;
+  width: 280px;
   height: 24px;
   font-size: 13px;
   margin-top: 60px;
@@ -225,19 +234,22 @@ input::placeholder {
   line-height: 20px;
   transform: skew(-0.1deg);
 }
+
 /*four*/
 .four {
   width: 100%;
   height: 512px;
   display: inline-flex;
 }
+
 .box4 {
-  width: 40%;
+  width: 30%;
   height: 100%;
   margin-left: 229px;
 }
+
 .box4_1 {
-  width: 80px;
+  width: 73px;
   height: 24px;
   font-size: 15px;
   margin-bottom: 22px;
@@ -247,14 +259,16 @@ input::placeholder {
   line-height: 24px;
   margin-top: 97px;
 }
+
 .box4_2 {
-  width: 270px;
+  width: 241px;
   height: 80px;
   font-size: 25px;
   font-weight: 800;
   text-align: left;
   line-height: 40px;
 }
+
 .box4_3 {
   width: 240px;
   height: 24px;
@@ -265,23 +279,27 @@ input::placeholder {
   line-height: 20px;
   transform: skew(-0.1deg);
 }
+
 .list4 {
   display: inline-flex;
   width: 60%;
   height: 100%;
 }
+
 .list4_1 {
   margin: 94px 166px 128px auto;
   display: inline-flex;
 }
+
 .list4_2 {
   width: 227px;
   height: 278px;
   margin: 0px 24px 0px 0px;
   border: 1px solid #3C64B1;
   border-radius: 5px;
-  background-color: transparent;
+  background-color: #fff;
 }
+
 .up {
   width: 100%;
   height: 50%;
@@ -289,6 +307,7 @@ input::placeholder {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
+
 .circle {
   background-color: var(--color--rectanangle--2);
   width: 115px;
@@ -298,23 +317,26 @@ input::placeholder {
   border: 2px solid #fff;
   box-shadow: 0 0 3px black;
 }
+
 .down {
   width: 100%;
   height: 50%;
-  background-color: transparent;
 }
+
 .down_1 {
   font-weight: 800;
   font-size: 14px;
   color: #112233;
   margin: 26px 0px 0px 53px;
 }
+
 .down_2 {
   font-size: 12px;
   font-weight: 700;
   color: #112233;
   margin: 6px 0px 0px 102px;
 }
+
 /*five*/
 .five {
   background-color: #fff;
@@ -322,26 +344,27 @@ input::placeholder {
   height: 530px;
   display: flex;
 }
+
 .triangle_2 {
   width: 45%;
   height: 0px;
   position: absolute;
   top: 2227px;
   left: 0px;
-  background-color: transparent;
   border-bottom: 530px solid #F4F7FB;
   border-right: 55px solid rgba(0, 0, 0, 0);
   border-left: 50% solid #F4F7FB;
 }
+
 .box5 {
   width: 286px;
   height: 213px;
   margin: 170px auto 147px 229px;
   display: block;
-  background-color: transparent;
 }
+
 .box5_1 {
-  width: 46px;
+  width: 41px;
   height: 24px;
   font-size: 15px;
   margin-bottom: 22px;
@@ -349,11 +372,11 @@ input::placeholder {
   float: left;
   text-align: left;
   border-top: 2px solid #E6E9FA;
-  background-color: transparent;
   line-height: 24px;
 }
+
 .box5_2 {
-  width: 228px;
+  width: 218px;
   height: 80px;
   font-size: 25px;
   margin-right: 30px;
@@ -361,8 +384,8 @@ input::placeholder {
   float: left;
   text-align: left;
   line-height: 40px;
-  background-color: transparent;
 }
+
 .box5_3 {
   width: 280px;
   height: 24px;
@@ -373,8 +396,8 @@ input::placeholder {
   text-align: left;
   line-height: 20px;
   transform: skew(-0.1deg);
-  background-color: transparent;
 }
+
 .image_imformation_2 {
   width: 55%;
   height: auto;
@@ -384,6 +407,7 @@ input::placeholder {
   margin-left: auto;
   margin-top: -1px;
 }
+
 /*six*/
 .six {
   background-color: #fff;
@@ -392,41 +416,42 @@ input::placeholder {
   display: inline-block;
   margin-top: -20px;
 }
+
 .box6 {
-  width: 264px;
+  width: 234px;
   height: auto;
   margin: 54px auto 63px auto;
   display: block;
 }
+
 .box6_1 {
-  width: 136px;
+  width: 121px;
   height: 24px;
   font-size: 15px;
   margin-bottom: 22px;
   font-weight: 700;
   border-top: 2px solid #E6E9FA;
   line-height: 24px;
-  margin-left: 67px;
-  background-color: transparent;
+  margin-left: 57px;
 }
+
 .box6_2 {
-  width: 264px;
+  width: 234px;
   height: 80px;
+  font-size: 25px;
   margin-right: 30px;
   font-weight: 800;
   text-align: center;
-  font-style: normal;
-  font-size: 25px;
-  line-height: 160%;
-  align-items: center;
-  text-align: center;
+  line-height: 40px;
 }
+
 .list6 {
   width: 100%;
   height: 341px;
   display: flex;
   justify-content: center;
 }
+
 .list6_1 {
   display: grid;
   grid-template-rows: 151px 151px;
@@ -434,22 +459,46 @@ input::placeholder {
   column-gap: 56px;
   row-gap: 39px;
 }
+
 .box6_3 {
   background-color: #F4F7FB;
   display: flex;
   transform: skew(-0.1deg);
 }
-.content_image > img{
+
+.image_3 {
   width: 151px;
   height: 151px;
+  background-image: url(./style/image/homepage_image3.png);
   background-size: 151px 151px;
 }
+
+.image_4 {
+  width: 151px;
+  height: 151px;
+  background-image: url(./style/image/homepage_image4.png);
+  background-size: 151px 151px;
+}
+
+.image_5 {
+  width: 151px;
+  height: 151px;
+  background-image: url(./style/image/homepage_image5.png);
+  background-size: 151px 151px;
+}
+
+.image_6 {
+  width: 151px;
+  height: 151px;
+  background-image: url(./style/image/homepage_image6.png);
+  background-size: 151px 151px;
+}
+
 .right {
   width: auto;
   height: 151px;
   display: block;
   margin: 21px auto auto 10px;
-  background-color: transparent;
 }
 
 .box6_4 {
@@ -460,7 +509,6 @@ input::placeholder {
   margin-bottom: 16px;
   font-weight: 800;
   transform: skew(-0.1deg);
-  background-color: #F4F7FB;
 }
 
 .box6_5 {
@@ -470,7 +518,6 @@ input::placeholder {
   margin-left: 10px;
   font-weight: 700;
   transform: skew(-0.1deg);
-  background-color: #F4F7FB;
 }
 
 /*bottombar*/
@@ -482,7 +529,7 @@ input::placeholder {
   margin-top: 1px;
 }
 
-.bottombar > div {
+.bottombar>div {
   width: 730px;
   height: 16px;
   font-size: 12px;
@@ -492,7 +539,6 @@ input::placeholder {
   text-align: center;
   margin: 24px 355px 24px 355px;
   color: #C3CBCD;
-  background-color: #373F41;
   font-weight: 800;
   transform: skew(-0.1deg);
   letter-spacing: 0.20000000298023224px;
