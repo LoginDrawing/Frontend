@@ -16,13 +16,12 @@ const menuList = {
   4 : <Setting />
 };
 
-
 class PrivateSiteManager extends React.Component{
   constructor(props) {
     super();
 
     this.state = {
-      menu: 0,
+      menu: 0
     };
   }
 
