@@ -174,9 +174,107 @@
     color: #373F41;
     text-align: center;
 }
+.content_home_write{
+    width: 920px;
+    height: auto;
+}
 /*contnt_timeline*/
 #content_timeline{
     margin: 88px 260px auto 260px;
+}
+.post{
+    border-left:  5px solid #ACD3E7;
+    margin-bottom: 92px;
+    border-top-left-radius: 25px;
+}
+.postyear{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 31px;
+}
+.postyear_circle > div{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 5px solid #3778B3;
+    margin: 10px auto auto -15px;
+}
+.postyear_year{
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3778B3;
+    max-width: 100px;
+    height: 40px;
+    margin: auto auto 15px 25px;
+}
+
+.postlist{
+    display: inline-flex;
+}
+.postbox{
+    height: 386px;
+    width: 315px;
+    filter: drop-shadow(0px 3px 10px rgba(197, 208, 231, 0.5));
+    margin-left: 36px;
+}
+.postbox_gallery{
+    width: 100%;
+    height: 228px;
+    background-color: #C5D0E7;
+}
+.postbox_write{
+    width: 100%;
+    height: 124px;
+    border-bottom: 0.5px solid rgba(55, 120, 179, 0.5);
+}
+.postbox_etcs {
+    display: flex;
+    justify-content: space-between;
+}
+.postbox_etc > *{
+    color: #424242;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline-flex;
+}
+.postbox_etcs_year{
+    width: 40px;
+    margin: 7px auto auto 15px;
+}
+.postbox_etcs_block{
+    width: 2px;
+    height: 2px;
+    background-color: #424242;
+    border-radius: 50%;
+}
+.postbox_etcs_location{
+    margin: 7px auto auto 18px;
+}
+.postbox_etcs_like{
+    margin: 6px 11px auto auto;
+}
+
+.img_plus{
+    width: 67px;
+    height: 67px;
+    position: fixed;
+    right: 50px;
+    bottom: 130px;
+    background-color: transparent;
+}
+.img_question{
+    width: 67px;
+    height: 67px;
+    position: fixed;
+    right: 50px;
+    bottom: 70px;
+    background-color: transparent;
 }
 /*content_gallery*/
 #content_gallery{

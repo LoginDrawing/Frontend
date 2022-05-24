@@ -1,9 +1,9 @@
 import React, { Component, useState } from "react";
 import { Link } from 'react-router-dom';
 import './PrivateSiteManager.css';
-import Home from './tabmenu/Home';
-import Timeline from './tabmenu/Timeline';
-import Gallery from './tabmenu/Gallery';
+import Home from './tabmenu/Home/Home';
+import Timeline from './tabmenu/Timeline/Timeline';
+import Gallery from './tabmenu/Gallery/Gallery';
 import Setting from './tabmenu/Setting';
 import Quest from './tabmenu/Quest';
 import logo from './style/image/logo.svg';

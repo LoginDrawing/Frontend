@@ -2,6 +2,7 @@
 import './Homepage.css';
 import React, { useState } from 'react';
 import logo from './style/image/logo.svg';
+import { Link } from 'react-router-dom';
 import search from './style/image/search.png';
 import family from './style/image/family.svg';
 import pet from './style/image/pet.svg';
@@ -25,8 +26,10 @@ function HomaPage() {
       <div className='titlebar'>
         <div className="logo">
           <img src={logo} width='45px' height='45px'/></div>
-        <div class="login">
-          <button class="login2"></button></div>
+          <Link to={{pathname: `/login`}}>        
+          <div class="login">
+            <button class="login2"></button></div>
+            </Link>
       </div>
       <One />
       <Two />
